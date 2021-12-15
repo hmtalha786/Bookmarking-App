@@ -11,6 +11,6 @@
   "dependencies": {
     "apollo-server-lambda": "^2.18.2",
     "faunadb": "^4.0.0",
-    "graphql": "^14.1.1"
+    "graphql": "^15.0.0"
   }
 }
