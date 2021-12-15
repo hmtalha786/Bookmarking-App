@@ -1,6 +1,6 @@
 import * as React from "react";
 import { makeStyles, Theme, createStyles } from "@material-ui/core/styles";
-import Websites from '../components/Websites';
+import Websites from "../components/Websites";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -15,11 +15,11 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 const IndexPage = () => {
-  const classes=useStyles();
+  const classes = useStyles();
   return (
     <div className={classes.parent}>
-      <title>Bookmarks</title>
-      <h1>BOOKMARKS</h1>
+      <title>Bookmarking App</title>
+      <h1>Bookmarking App using GraphQL, Apollo and Netlify</h1>
       <Websites />
     </div>
   );
